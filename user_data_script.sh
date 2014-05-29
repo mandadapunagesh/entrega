@@ -18,7 +18,7 @@ git clone https://github.com/mandadapunagesh/entrega.git /etc/puppet
 puppet apply /etc/puppet/manifests/init.pp
 
 #
-# Load eval virtual site and restart service - keep it simple
+# Load candidateeval virtual site and restart service - keep it simple
 #
-a2ensite eval
+a2ensite candidateeval
 service apache2 reload
